@@ -15,15 +15,16 @@ Shows Rollbar being configured in the didFinishLaunchingWithOptions event handle
 The method initRollbar() includes the following configurations
 
 1. Initilization with post_client_item Rollbar Project access token
-2. environment - Name of the environment teh app is running in
-3. codeVersion - The git commit SHA, release tag etc. of the cod e running  
-This allows you to immediately see whihc code version an error was first seen in and 
-also is used in the Rollbar source control code context integration
+2. environment - Name of the environment the app is running in
+3. codeVersion - The git commit SHA, release tag etc. of the code running  
+This allows you to immediately see which code version an error was first seen in.
+It is also used in the Rollbar source control code context integration
 
 4. IP address being anonymized if needed
 5. Suppressing detailed Rollbar logging when debugging in XCode
-6. checkIgnoreRollbarData - Define a method that will be called before teh data is sentto Rollbar. In this method to can decide to not sent teh data to Rollbar
-7. modifyRollbarData - Define a method that will be called just before teh data is sentto Rollbar
+6. checkIgnoreRollbarData - Define a method that will be called before the data is sentto Rollbar.
+In this method to can decide to not sent the data to Rollbar
+7. modifyRollbarData - Define a method that will be called just before the data is sentto Rollbar
 This will allow you to add, remove, modify data in the payload just befoe it is sent.
 It is often used for advanced data scrubbing, adding additional data to the payload, or moving data to a different location in the payload
 
@@ -35,7 +36,12 @@ Often used to send data to help understand the business impact of an error
 NOTE: The data about a crash will only be sent to Rollbar the next tim ethe user starts the application
 
 
-# Build and Instructions 
+## ContentView.swift
+
+Logging to Rollbar is various ways
+
+
+# Build Instructions 
 
 ## Step 1
 Download the source code from the repository https://github.com/RollbarCustomerEng/apple-swift-app

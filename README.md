@@ -8,7 +8,7 @@ See following 2 files show Rollbar configuration and usage
 app/RCE/RCEApp.swift
 app/RCE/ContentView.swift
 
-## RCEApp.swift
+### RCEApp.swift
 
 Shows Rollbar being configured in the didFinishLaunchingWithOptions event handler
 
@@ -36,7 +36,7 @@ Often used to send data to help understand the business impact of an error
 NOTE: The data about a crash will only be sent to Rollbar the next tim ethe user starts the application
 
 
-## ContentView.swift
+### ContentView.swift
 
 Logging to Rollbar is various ways
 

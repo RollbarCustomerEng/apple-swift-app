@@ -1,0 +1,4 @@
+app/Pods/**
+app/RCE.xcodeproj/project.xcworkspace/xcuserdata/**
+app/RCE.xcodeproj/xcuserdata/**
+app/RCE.xcworkspace/xcuserdata/**

@@ -1,0 +1,40 @@
+PODS:
+  - PLCrashReporter (1.10.2)
+  - RollbarCommon (2.3.4)
+  - RollbarDeploys (2.3.4):
+    - RollbarCommon (~> 2.3.4)
+  - RollbarNotifier (2.3.4):
+    - RollbarCommon (~> 2.3.4)
+  - RollbarPLCrashReporter (2.3.4):
+    - PLCrashReporter (~> 1.10.1)
+    - RollbarCommon (~> 2.3.4)
+  - RollbarSwift (2.3.4):
+    - RollbarCommon (~> 2.3.4)
+    - RollbarNotifier (~> 2.3.4)
+
+DEPENDENCIES:
+  - RollbarDeploys (~> 2.3.4)
+  - RollbarNotifier (~> 2.3.4)
+  - RollbarPLCrashReporter (~> 2.3.4)
+  - RollbarSwift (~> 2.3.4)
+
+SPEC REPOS:
+  trunk:
+    - PLCrashReporter
+    - RollbarCommon
+    - RollbarDeploys
+    - RollbarNotifier
+    - RollbarPLCrashReporter
+    - RollbarSwift
+
+SPEC CHECKSUMS:
+  PLCrashReporter: 2a08001f8e6a30abe405ee8f13d2753cfb5d682a
+  RollbarCommon: 9a8198f5141aba65441c63e76b2ec4bc1a05cd2f
+  RollbarDeploys: 67bf39f5a2479e227ecf306c96a4dc234ef2bd63
+  RollbarNotifier: 97b177c3493571f74cef5f793801c4a191f4d918
+  RollbarPLCrashReporter: bf0e742bd2d799d4c79a83108e4e7bfd6107db87
+  RollbarSwift: 27454f40b2215e4579c11f71bab364b61cc73aab
+
+PODFILE CHECKSUM: 2f87422b67311124507cdc9d9a87a4ab8a9d34e3
+
+COCOAPODS: 1.11.3

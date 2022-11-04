@@ -1,0 +1,13 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+
+target 'RCE' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for RCE
+  pod "RollbarPLCrashReporter", "~> 2.3.4"
+  pod "RollbarNotifier", "~> 2.3.4"
+  pod "RollbarDeploys", "~> 2.3.4"
+  pod "RollbarSwift", "~> 2.3.4"
+end
